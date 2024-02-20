@@ -5,9 +5,9 @@ export function Demo() {
 
   let myUndefined: string;
   myUndefined = "test";
-  // myUndefined = true;
-  // myUndefined = 2;
+  //myUndefined = true;
+  //myUndefined = 2;
 
-  let myNull: boolean = null;
+  let myNull: boolean;
   myNull = false;
 }

@@ -1,8 +1,18 @@
 export function Demo() {
-  const errorFunction = () => {
+  const errorFunktion = () => {
     console.error("Error!");
     throw new Error("Unknown error");
   };
 
-  const result = errorFunction();
+  const result = errorFunktion();
 }
+
+
+
+
+/* const errorFunction = () => {
+  console.error("Error!");
+  throw new Error("Unknown error");
+};
+
+const result = errorFunction(); */
