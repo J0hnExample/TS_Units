@@ -1,5 +1,5 @@
 export function Demo() {
     let price = 100;
-    const priceString = price + " EUR";
+    price = price + " EUR";
     priceString = "hallo";
 }

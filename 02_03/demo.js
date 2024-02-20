@@ -1,9 +1,7 @@
-"use strict";
-exports.__esModule = true;
-var name = "Superbattery";
-var power = 99;
+const name = "Superbattery";
+let power = 99;
 //hallo
-exports["default"] = {
-    name: name,
-    currentPower: power
+export default {
+    name,
+    currentPower: power,
 };
